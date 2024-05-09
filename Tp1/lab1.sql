@@ -1,4 +1,5 @@
-﻿CREATE OR REPLACE FUNCTION cargaMasiva(cantModelos integer, cantAviones integer) RETURNS void AS
+-- language: PL/pgSQL
+CREATE OR REPLACE FUNCTION cargaMasiva(cantModelos integer, cantAviones integer) RETURNS void AS
 DECLARE 
 	vTipoModelo int; 
 	vDescripcion char(50); 
